@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasir | Developer portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(0, 0, 39);
+            color: rgb(255, 255, 255);
+            font-family: cursive;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(18, 18, 70);
+            padding: 0 20px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(150, 104, 211);
+            font-size: 1.02rem;
+        }
+
+        .left {
+            font-size: 1.3rem;
+            font-weight: bold;
+            font-family: Copperplate, Papyrus, fantasy;
+        }
+
+        .first {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: 10vh 0;
+            font-family: sans-serif;
+        }
+
+        .first>div {
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+            margin-top: 50px;
+        }
+
+        .rightsection img {
+            width: 100%;
+            height: auto;
+            margin: 50px auto;
+        }
+
+        main hr {
+            border: 0;
+            background-color: blueviolet;
+            height: 0.5px;
+            margin: 40px 20px;
+        }
+
+        .purple {
+            color: rgb(164, 107, 255);
+        }
+
+        .text-gray {
+            color: grey;
+        }
+
+        #element {
+            color: rgb(164, 107, 255);
+        }
+
+        .second {
+            max-width: 80vw;
+            margin: auto;
+            margin-bottom: 500px;
+            padding: 20px;
+            /* text-align: center; */
+        
+        }
+
+        .second .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 80px 0;
+            display: flex;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .image-top {
+            width: 40px;
+            position: relative;
+            top: -48px;
+            left: -18px;
+        }
+
+        .second .vertical {
+            height: 70px;
+            width: 1px;
+            background: rgb(255, 255, 255);
+            margin: 0 90px;
+
+        }
+
+        .verticle-title {
+            position: relative;
+            top: 45px;
+            width: 150px;
+
+
+        }
+
+        .verticle-desc {
+            position: relative;
+            top: 60px;
+            width: 155px;
+            color: grey;
+            font-size: 14px;
+        }
+
+        footer {
+            background-color: rgb(18, 18, 70);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Yasir Ansari</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Yasir</span>
+                <div>and I am passionate About</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection"><img src="dv.png" alt=""></div>
+        </section>
+
+        <hr>
+
+        <section class="second">
+
+            <span class="text-gray">What I have Learn So far</span>
+            <h1>Skills & Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="dev.png" alt="">
+                    <div class="verticle-title">
+                        Frontend Web dev
+                    </div>
+                    <div class="verticle-desc">
+                        As a frontend developer, I possess a diverse skill set encompassing HTML, CSS, and JavaScript. I
+                        specialize in utilizing React, Next.js, and Bootstrap to create immersive and visually appealing
+                        web experiences.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="backend.avif" alt="">
+                    <div class="verticle-title">
+                        Backend Web dev
+                    </div>
+                    <div class="verticle-desc">
+                        Proficient in languages such as Python, Java, or Node.js, I leverage frameworks like Express or
+                        Django to create efficient server-side functionality. Additionally, I have experience with
+                        databases like MySQL or MongoDB.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="dataanalysisimg.jpg" alt="">
+                    <div class="verticle-title">
+                        Data Analysis
+                    </div>
+                    <div class="verticle-desc">
+                        I possess a strong foundation in statistical analysis and data manipulation. Proficient Python,
+                        I utilize libraries like pandas and NumPy for efficient data processing. Skilled in data
+                        visualization using tools like powerBi and matplotlib. I have experience with SQL for data
+                        querying and database management.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Machine-learning-logo-1.png" alt="">
+                    <div class="verticle-title">
+                        Machine Learning
+                    </div>
+                    <div class="verticle-desc">
+                        As a Machine Learning practitioner, I leverage Python, TensorFlow, and PyTorch to analyze data,
+                        build accurate models, and derive actionable insights. With a strong foundation in statistical
+                        analysis and feature engineering, I am passionate about solving complex problems and driving
+                        data-driven decision-making.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="cbsec2.jpg" alt="">
+                    <div class="verticle-title">
+                        Cyber Security
+                    </div>
+                    <div class="verticle-desc">
+                        Skilled in cybersecurity and Linux, I implement robust defense measures and secure system
+                        configurations to protect against threats. With expertise in network security and incident
+                        response, I ensure data integrity and mitigate cyber risks effectively.
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2023 Yasir Ansari | Developer Portfolio
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Developmet', ' Data analytics', 'Cyber Security', 'Machine learning'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
